@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/korona.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/egypt.css">
+    <title>Єгипет</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-block">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logo.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="header-mobile">
+                    <i class="fa-solid fa-bars header-burger"></i>
+                </div>
+                <nav class="header-nav">
+                    <ul class="menu-item">
+                        <li class="menu-item-list">
+                            <a href="../pages/search.html" class="menu-item-link">Пошук тура</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <a href="../pages/europe.html" class="menu-item-link">Євро тури</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="#" class="menu-item-link">Країни</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/turkey.html" class="sub-menu-item-link">Туреччина</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">Єгипет</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/bulgaria.html" class="sub-menu-item-link">Болгарія</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/greece.html" class="sub-menu-item-link">Греція</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/oae.html" class="sub-menu-item-link">ОАЕ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="" class="menu-item-link">Більше</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/about.html" class="sub-menu-item-link">Про нас</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">Курси навчання</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/contacts.html" class="sub-menu-item-link">Контакти</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <ul class="phone-item">
+                        <li class="phone-item-list">
+                            <a href="tel:+380977173388" class="phone-item-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="phone-item-list">
+                            <a href="tel:+380635655886" class="phone-item-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-close">
+                <i class="fa-solid fa-xmark mobile-nav-xmark"></i>
+            </div>
+            <ul class="mobile-menu-item">
+                <li class="mobile-menu-item-list">
+                    <a href="../pages/search.html" class="mobile-menu-item-link">Пошук тура</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <a href="../pages/europe.html" class="mobile-menu-item-link">Євро тури</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-countries" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Країни</a>
+                        <i  class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron first-chevron-down"></i>
+                    </div>
+                    <ul id="countries" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/turkey.html" class="mobile-sub-menu-item-link">Туреччина</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Єгипет</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/bulgaria.html" class="mobile-sub-menu-item-link">Болгарія</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/greece.html" class="mobile-sub-menu-item-link">Греція</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/oae.html" class="mobile-sub-menu-item-link">ОАЕ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-more" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Більше</a>
+                        <i class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron second-chevron-down"></i>
+                    </div>
+                    <ul id="more" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/about.html" class="mobile-sub-menu-item-link">Про нас</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Курси навчання</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/contacts.html" class="mobile-sub-menu-item-link">Контакти</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="country-main">
+            <div class="country-main-background">
+                <div class="country-main-block">
+                    <h2 class="country-main-title">
+                        Тури в Єгипет
+                    </h2>
+                    <a href="../pages/search.html" class="main-button">Пошук турів</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <section class="country-about">
+                <h1 class="country-about-title">Єгипет</h1>
+                <div class="country-about-block">
+                    <div class="country-about-top country-about-content">
+                        <p class="country-about-text">
+                            Єгипет - трансконтинентальна держава, що охоплює північно-східну частину Африки та південно-західну частину Азії, що з'єднані сухопутним мостом, утвореним Синайським півостровом. Єгипет — середземноморська країна, що межує з сектором Гази (Палестина) та Ізраїлем на північному сході, Акабською затокою та Червоним морем на сході, Суданом на півдні та Лівією на заході.
+                        </p>
+                        <p class="country-about-text">
+                            Площа країни становить 997 690 км², з яких 59 202 км² в Азії. Столиця — місто Каїр, найбільше місто Близького Сходу і Північної Африки. Державний устрій — змішана республіка.
+                        </p>
+                        <p class="country-about-text">
+                            Єгипет має одну з найдавніших історій у світі, яка датується ще 6—4-м тисячоліттями до нашої ери. Вважаючись колискою цивілізації, Стародавній Єгипет був одним із перших центрів ранньої писемності, сільського господарства, урбанізації, організованої релігії та центрального уряду. Знакові пам'ятки, як-от Некрополь Гізи та Великий Сфінкс, а також руїни Мемфіса, Фіви (сучасний Луксор), Карнакський храм та гробниці Долини Царів, відображають цю спадщину і продовжують викликати значний інтерес з боку наукової спільноти та громадськості. Довга і багата культурна спадщина Єгипту є невід'ємною частиною його національної ідентичності, яка зазнавала і часто асимільовувала різноманітні іноземні впливи, включаючи грецький, перський, римський, арабський, османський турецький і нубійський. Єгипет був раннім і важливим центром християнства, але значною мірою був ісламізований у VII столітті і залишається переважно мусульманською країною, хоча зі значною християнською меншиною.
+                        </p>
+                    </div>
+                    <div class="country-about-img">
+                        <img src="../img/country/egypt/egypt_page2.jpg" alt="Сфінкс" class="country-about-photo">
+                    </div>
+                    <div class="country-about-img country-about-img-two">
+                        <img src="../img/country/egypt/egypt_page3.jpg" alt="Фараони" class="country-about-photo">
+                    </div>
+                    <div class="country-about-bottom country-about-content">
+                        <p class="country-about-text">
+                            Єгипет — найнаселеніша країна Північної Африки, Близького Сходу та Арабського світу, третя за чисельністю населення в Африці (після Нігерії та Ефіопії) та чотирнадцята за чисельністю населення у світі. Переважна більшість населення країни мешкає біля берегів річки Ніл, площею близько 40 000 км², де знаходиться орна земля. Великі райони пустелі Сахара, які складають більшу частину території Єгипту, малонаселені. Близько половини жителів Єгипту живуть у міських районах, більшість яких розповсюджена у густонаселених центрах великого Каїру, Александрії та інших великих міст дельти Нілу.
+                        </p>
+                        <p class="country-about-text">
+                            Клімат Єгипту: на півночі — субтропічний, на іншій території — тропічний. Але на більшій частині Єгипту клімат тропічний континентальний пустельний із різкими добовими коливаннями температури. У пустелях денні температури можуть досягати 50 °С, а вночі опуститися до 10—0 °С. Єгипет дуже бідна на опади територія земної кулі, на південь від Каїру, кількість опадів, взагалі, становить лише від 2 до 5 мм на рік (а в деяких районах бездощів'я триває по кілька років). Тільки дуже тонка смуга північного узбережжя країни отримує достатню кількість опадів. Найбільш вологий та багатий дощами зимовий період — з жовтня по березень. 
+                        </p>
+                        <p class="country-about-text">
+                            Середня температура влітку коливається від 27—32 °С і до 43 °С на узбережжі Червоного моря.Середня температура в зимовий період коливається від 13 до 21 °С. Стійкий вітер з північного заходу допомагає утримувати помірну температуру поблизу узбережжя Середземного моря. Хамсин — вітер, який дме з півдня (пустелі Сахари) і спричиняє навесні піщані й пилові буревії по всій території Єгипту, а іноді і підвищує температуру в пустельних районах до більш ніж 38 °С, крім того, на територію Єгипту, щороку, вторгаються циклонні вітри Сірокко і Самум.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="country-resorts">
+                <h2 class="country-resorts-title">
+                    Курорти Єгипту
+                </h2>
+                <div class="country-resorts-container">
+                    <div class="resorts-sharm-block">
+                        <h3 class="resorts-container-title">
+                            Шарм-ель-Шейх
+                        </h3>
+                        <p class="resorts-container-text">
+                            Різноманітність видів морських мешканців та сотні коралових рифів Червоного моря роблять Шарм-ель-Шейх особливо привабливим для любителів дайвінгу та еко-туризму.Невипадково тут неодноразово був Жак Ів Кусто зі своєю командою.
+                        </p>
+                        <p class="resorts-container-text">
+                            Шарм-ель-Шейх розтягнувся вздовж морсмького узбережжя майже на 30 кілометрів, поділяючись на десяток найкрасивіших районів, які в єдине ціле з'єднує центральна міська вулиця — Peace Road. Кожен із районів по-своєму привабливий для туристів. Так, наприклад, Наама Бей — найстаріший район з пологим заходом у море. У районі Набк Бей заходи у море переважно по понтонах, у зимовий період тут постійно дмуть сильні вітри, але саме у цьому районі розташовані більшість 5* готелів. А бухта Шарм-ель-Майя навпаки, сама захищена бухта від вітрів. Район Шаркс Бей порадує дивовижним дайвінгом - тут чудові коралові рифи.
+                        </p>
+                    </div>
+                    <div class="resorts-sharm-img">
+                        <img src="../img/country/egypt/egypt_page4.jpg" alt="Риби" class="resorts-photo">
+                    </div>
+                    <div class="resorts-hurgada-img">
+                        <img src="../img/country/egypt/egypt_page5.jpg" alt="Верблюд" class="resorts-photo">
+                    </div>
+                    <div class="resorts-hurgada-block">
+                        <h3 class="resorts-container-title">
+                            Хургада
+                        </h3>
+                        <p class="resorts-container-text">
+                            Хургада - найкращий курорт для сімей з дітьми. Адже заходи у море тут переважно скрізь пологі, а більшість готелів розташовані на 1-й лінії. А для поціновувачів підводного світу, недалеко від берега є красиві коралові рифи.
+                        </p>
+                        <p class="resorts-container-text">
+                            Місто було засноване на початку XX століття і з 1980 року активно розвивається завдяки єгипетським і іноземним інвестиціям. Поблизу Хургади є красиві природні і історичні місця, які варто відвідати. Серед історичних, це, звісно, Люксор. А біля самої Хургади є курорт Ель-Гуна - єгипетська Венеція.
+                        </p>
+                    </div>
+                    <div class="resorts-marsa-block">
+                        <h3 class="resorts-container-title">
+                            Марса-Алам
+                        </h3>
+                        <p class="resorts-container-text">
+                            Якщо ви вже бували у Шарм-ель-Шейху і думали, що побачили весь красивий підводний світ Єгипту, то це не так. Марса-Алам вас приємо здивує! Тут коралові рифи ще більш багатші і кольоровіші, ще більш різноманітніший підводний світ і саме тут можна зустріти Дюгонь (Морську корову).
+                        </p>
+                        <p class="resorts-container-text">
+                            Марса-Алам розташований за 260км. на південь від Хургади. Курорт має свій аеропорт. На узбережжі Марса-Алам розташовані місто Ель-Кусейр та курорт Порт Галіб з набережною та розвиненою інфраструктурою.
+                        </p>
+                    </div>
+                    <div class="resorts-marsa-img">
+                        <img src="../img/country/egypt/egypt_page6.jpg" alt="Дюгонь" class="resorts-photo">
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section class="country-selection">
+            <div class="wrapper">
+                <div class="country-selection-container">
+                    <div class="country-selection-item">
+                        <h2 class="country-selection-title">
+                            Підібрати тур?
+                        </h2>
+                        <p class="country-selection-text">
+                            Немає часу на самостійний пошук туру, чи не знайшли те що потрібно? Напишіть нам і ми підберемо кращі пропозиції.
+                        </p>
+                    </div>
+                    <button type="button" class="main-button country-selection-button question">Залишити запит</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-block">
+                <address class="footer-block-address">
+                    <ul class="company-contacts">
+                        <li class="company-contacts-item">
+                            <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9A%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%96+%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8,+106,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.809364,23.998135,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae798040e4fb9:0xc8bd146d46c40c08!8m2!3d49.809364!4d23.998135" target="_blank" rel="noopener noreferrer nofollow" class="company-contacts-link">м. Львів, вул. Кн. Ольги, 106 (ТЦ "Львів", 13 зал)</a>
+                        </li>
+                        <li class="company-contacts-item company-address">
+                            <a href="mailto:koronatur@ukr.net" class="company-contacts-link">koronatur@ukr.net</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380977173388" class="company-contacts-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380635655886" class="company-contacts-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="logo logo-footer">
+                    <a href="../index.html"><img src="../img/logo.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright-item">
+                        Туристичне агентство "Корона-Тур" з 2012р.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="form-popup">
+        <div class="form-popup-body">
+            <form action="#" id="form" method="post" class="form">
+                <div class="form-head">
+                    <h2 class="form-title">Залишити запит</h2>
+                    <i class="fa-solid fa-xmark form-xmark"></i>
+                </div>
+                <p id="error-message" class="form-error-message"></p>
+                <div class="form-item">
+                    <label for="formName" class="form-label">Ім'я*:</label>
+                    <input id="formName" type="text" name="name" class="form-input _req" placeholder="Вкажіть ваше ім'я">
+                </div>
+                <div class="form-item">
+                    <label for="formPhone" class="form-label">Телефон*:</label>
+                    <input id="formPhone" type="tel" name="phone" class="form-input _req" placeholder="+380">
+                </div>
+                <div class="form-item">
+                    <label for="formMessage" class="form-label">Коментар*:</label>
+                    <textarea name="message" id="formMessage"class="form-input form-area _req" placeholder="Вкажіть побажання"></textarea>
+                </div>
+                <button type="submit" class="form-button">Відправити</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/b478714518.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/form.js"></script>
+</body>
+</html>

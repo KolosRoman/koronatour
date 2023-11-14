@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/korona.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/oae.css">
+    <title>ОАЕ</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-block">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logo.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="header-mobile">
+                    <i class="fa-solid fa-bars header-burger"></i>
+                </div>
+                <nav class="header-nav">
+                    <ul class="menu-item">
+                        <li class="menu-item-list">
+                            <a href="../pages/search.html" class="menu-item-link">Пошук тура</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <a href="../pages/europe.html" class="menu-item-link">Євро тури</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="#" class="menu-item-link">Країни</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/turkey.html" class="sub-menu-item-link">Туреччина</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/egypt.html" class="sub-menu-item-link">Єгипет</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/bulgaria.html" class="sub-menu-item-link">Болгарія</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/greece.html" class="sub-menu-item-link">Греція</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">ОАЕ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="#" class="menu-item-link">Більше</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/about.html" class="sub-menu-item-link">Про нас</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">Курси навчання</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/contacts.html" class="sub-menu-item-link">Контакти</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <ul class="phone-item">
+                        <li class="phone-item-list">
+                            <a href="tel:+380977173388" class="phone-item-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="phone-item-list">
+                            <a href="tel:+380635655886" class="phone-item-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-close">
+                <i class="fa-solid fa-xmark mobile-nav-xmark"></i>
+            </div>
+            <ul class="mobile-menu-item">
+                <li class="mobile-menu-item-list">
+                    <a href="../pages/search.html" class="mobile-menu-item-link">Пошук тура</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <a href="../pages/europe.html" class="mobile-menu-item-link">Євро тури</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-countries" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Країни</a>
+                        <i  class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron first-chevron-down"></i>
+                    </div>
+                    <ul id="countries" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/turkey.html" class="mobile-sub-menu-item-link">Туреччина</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/egypt.html" class="mobile-sub-menu-item-link">Єгипет</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/bulgaria.html" class="mobile-sub-menu-item-link">Болгарія</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/greece.html" class="mobile-sub-menu-item-link">Греція</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">ОАЕ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-more" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Більше</a>
+                        <i class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron second-chevron-down"></i>
+                    </div>
+                    <ul id="more" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/about.html" class="mobile-sub-menu-item-link">Про нас</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Курси навчання</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/contacts.html" class="mobile-sub-menu-item-link">Контакти</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="country-main">
+            <div class="country-main-background">
+                <div class="country-main-block">
+                    <h2 class="country-main-title">
+                        Тури в ОАЕ
+                    </h2>
+                    <a href="../pages/search.html" class="main-button">Пошук турів</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <section class="country-about">
+                <h1 class="country-about-title">ОАЕ</h1>
+                <div class="country-about-block">
+                    <div class="country-about-top country-about-content">
+                        <p class="country-about-text">
+                            Об'єднані Арабські Емірати — суверенна держава в Західній Азії на північному сході Аравійського півострова в Перській затоці, що межує з Оманом на сході та Саудівською Аравією на півдні та заході, а також має морські кордони з Катаром на заході та Іраном на півночі, відповідно. Суверенна абсолютна монархія, що є федерацією, яка складається з семи еміратів: Абу-Дабі (який виконує функцію столиці), Аджман, Дубай, Фуджейра, Рас-ель-Хайма, Шарджа, Умм-Ель-Кайвайн.
+                        </p>
+                        <p class="country-about-text">
+                            ОАЕ — велика нафтодобувна країна. Основні галузі економіки: нафтогазова і нафтохімічна, рибна, конструкційних меблів, дрібне кораблебудування та ін. Завдяки прискореному розвитку нафтогазової промисловості в ОАЕ забезпечено найвищий серед держав Аравійського півострова середній річний прибуток на душу корінного населення. У ОАЕ немає залізниць, але добре розвинена мережа автомобільних доріг, що з'єднують основні міста країни. На початку 1990-х років в країні було шість міжнародних аеропортів. У 1988 в Дубаї був відкритий морський порт Джебель-Алі, що володіє найбільшою у світі штучною гаванню.
+                        </p>
+                        <p class="country-about-text">
+                            Із 4,4 млн населення, що постійно проживає у країні, лише 15-20 % мешканців є громадянами ОАЕ, із них 97 % жителів є мусульманами, з них 85 %— суніти і 15 %— шиїти. Іноземці прибули, в основному, з країн Південної та Південно-Східної Азії, хоча значне їх число прибуло і з Близького Сходу, Європи, Центральної Азії, пострадянських країн і Північної Америки. За даними уряду, 76 %— мусульмани (від загальної чисельності всього населення країни), 9 %— християни, і 15 %— інші релігійні течії.
+                        </p>
+                    </div>
+                    <div class="country-about-img">
+                        <img src="../img/country/oae/oae_page2.jpg" alt="Мечеть" class="country-about-photo">
+                    </div>
+                    <div class="country-about-img country-about-img-two">
+                        <img src="../img/country/oae/oae_page3.jpg" alt="Хмарочос" class="country-about-photo">
+                    </div>
+                    <div class="country-about-bottom country-about-content">
+                        <p class="country-about-text">
+                            Кліматичні умови в ОАЕ субтропічні пустельні, яким притаманні безперервні спекотні умови протягом всього року завдяки стабільній температурі повітря і високому тиску. Найспекотніші місяці липень і серпень, коли середня максимальна температура сягає понад 48 °C на прибережній рівнині. Середня мінімальна температура в січні і лютому становить від +10 °C і 14 °C
+                        </p>
+                        <p class="country-about-text">
+                            1 грудня 1999 року, було відкрито відомий готель Burj Al Arab (Бурдж аль Араб). Члени комісії, що відкривала готель для відвідувачів, були вражені архітектурою, розкішшю та дизайном Burj Al Arab, і прокоментували готель однією фразою: «Цьому готелю зірок не потрібно, він сам зірка!». Готелю була присвоєна категорія All Suites Luxury Hotel.
+                        </p>
+                        <p class="country-about-text">
+                            Туризм — один з основних промислів цієї держави, що може говорити про якість обслуговування та уваги до гостей. Курорти і міста ОАЕ (Абу-Дабі, Джумейра, Дубай, Фуджейра, Шарджа) це не лише класичні для пляжного відпочинку пляжі, готелі і розважальні центри. Доповненням до цього є міста різних еміратів, що являють собою перлини сучасної арабської архітектури і популярні центри шопінгу.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="country-resorts">
+                <h2 class="country-resorts-title">
+                    Курорти ОАЕ
+                </h2>
+                <div class="country-resorts-container">
+                    <div class="resorts-first-block">
+                        <h3 class="resorts-container-title">
+                            Абу-Дабі
+                        </h3>
+                        <p class="resorts-container-text">
+                            Абу-Дабі - столиця ОАЕ. Це східна казка у сучасному прочитанні. Одне з найрозкішніших міст світу. Абу-Дабі розташований на кількох островах Перської затоки, які пов'язують між собою мережу автошляхів. На зведення та облаштування міста було витрачено мільярди доларів. За незліченну кількість хмарочосів Абу-Дабі прозвали «Манхеттеном Близького Сходу», а за велику кількість зелені та штучно створених парків — «містом-садом». Дивно, але влада міста витрачає по кілька тисяч доларів на рік на догляд за кожним деревом.
+                        </p>
+                        <p class="resorts-container-text">
+                            В Абу-Дабі є на що подивитися. Мечеть Шейха Зайда. Відразу після будівництва мечеті її визнали однією з найкрасивіших на планеті. Це грандіозна споруда з білого мармуру, від якої буквально сліпить очі. Мечеть розрахована на 40 000 віруючих та відкрита для відвідування всіма бажаючими. Гігантський парк «Феррарі» є однією з візитівок Абу-Дабі. Загальна площа – 86 тисяч квадратних метрів, 7 футбольних полів. У парку представлено виставку гоночних машин, а також трасу для заїзду спорткарів. Ви зможете відчути адреналін, прокатавшись на швидкій пневматичній американській гірці.
+                        </p>
+                    </div>
+                    <div class="resorts-first-img">
+                        <img src="../img/country/oae/oae_page4.jpg" alt="Хмарочоси" class="resorts-photo">
+                    </div>
+                    <div class="resorts-second-img">
+                        <img src="../img/country/oae/oae_page5.jpg" alt="Бурдж Халіфа" class="resorts-photo">
+                    </div>
+                    <div class="resorts-second-block">
+                        <h3 class="resorts-container-title">
+                            Дубай
+                        </h3>
+                        <p class="resorts-container-text">
+                            Хочете здійснити подорож у часі? Вирушайте до Дубаї. Те, чого весь світ тільки прагне, тут уже існує. Наймолодший мегаполіс із населенням у 2 мільйони людей, вражає великою кількістю хмарочосів, може похвастатися найвищою будівлею і найбільшим торговим центром у світі, а також єдиним на планеті штучним островом такого розміру, що його виразно видно з космосу.
+                        </p>
+                        <p class="resorts-container-text">
+                            Дубай є найбільшим містом ОАЕ. Його називають містом-чудом і навіть «Парижем Перської затоки». Тут швидко звикаєш до ідеальних доріг, кондиціонерів на зупинках та поліцейських на «ламборджіні» та «феррарі». Суворі мусульманські закони диктують свої правила для туристів: на вулицях краще не з'являтися у дуже відкритому одязі, не можна вживати спиртні напої поза ресторанами, готелями та клубами, а під час священного для мусульман місяця Рамадан заборонено їсти на вулиці до заходу сонця.
+                        </p>
+                    </div>
+                    <div class="resorts-third-block">
+                        <h3 class="resorts-container-title">
+                            Шарджа
+                        </h3>
+                        <p class="resorts-container-text">
+                            Шарджа - третій за площею та популярністю емірат ОАЕ. Шарджа вважається культурною столицею країни — велика кількість унікальних музеїв, галерей і театрів здатна зробити честь не одному європейському місту. Додайте до цього і сучасну архітектуру, і традиційний східний ринок сук, де можна провести півдня, блукаючи від лотка до лотка у пошуках сувеніру чи золотого ланцюжка.
+                        </p>
+                        <p class="resorts-container-text">
+                            Говорячи коротко, Шарджа – це анти-Дубай. Абсолютно «сухий» емірат, де немає алкоголю, кафе-кальянних і не допускається відвертий одяг. Шарджу обирають ті, хто хоче отримати відмінний пляжний та культурний відпочинок за цінами нижчими, ніж у Дубаї, а також ті, кому подобається тиша та спокій.
+                        </p>
+                    </div>
+                    <div class="resorts-third-img">
+                        <img src="../img/country/oae/oae_page6.jpg" alt="Будинок" class="resorts-photo">
+                    </div>
+                    <div class="resorts-fourth-img">
+                        <img src="../img/country/oae/oae_page7.jpg" alt="Хмарочоси" class="resorts-photo">
+                    </div>
+                    <div class="resorts-fourth-block">
+                        <h3 class="resorts-container-title">
+                            Аджман
+                        </h3 resorts-container-title>
+                        <p class="resorts-container-text">
+                            Скромний і спокійний Аджман розташувався лише за 10 км від Шарджі. Це один із найбідніших еміратів в ОАЕ, який до того ж відрізняється і своїми розмірами — територія Аджмана найменша з усіх семи областей країни. Однак, це компенсує природа: гарні пальми, білі пляжі та атмосфера затишку та доброзичливості. Коли на місто опускається прохолода, місцеві сім'ями виходять на набережну, щоб приготувати барбекю на ніжному піску, під пальмами або на спеціальних білих столиках із блакитними парасольками для пікніка.
+                        </p>
+                    </div>
+                    <div class="resorts-fifth-block">
+                        <h3 class="resorts-container-title">
+                            Рас-ель-Хайма
+                        </h3>
+                        <p class="resorts-container-text">
+                            Рас-ель-Хайма - найпівнічніший з еміратів. Він відомий своїми красивими горами, які майже впритул підступають до моря, цікавими історичними пам'ятками та недорогими готелями. Відпочинок у Рас-ель-Хаймі припаде до душі тим, хто хоче заощадити на проживанні та відвідати Оман, до якого від емірату рукою подати. Рас-ель-Хайму навіть називають "воротами в Оман". Дістатися з Рас-ель-Хайми до Дубая можна лише за годину.
+                        </p>
+                    </div>
+                    <div class="resorts-fifth-img">
+                        <img src="../img/country/oae/oae_page8.jpg" alt="Готель" class="resorts-photo">
+                    </div>
+                    <div class="resorts-sixth-img">
+                        <img src="../img/country/oae/oae_page9.jpg" alt="Гори" class="resorts-photo">
+                    </div>
+                    <div class="resorts-sixth-block">
+                        <h3 class="resorts-container-title">
+                            Фуджейра
+                        </h3 resorts-container-title>
+                        <p class="resorts-container-text">
+                            Фуджейра - єдиний з усіх еміратів який розташований на березі Аравійського моря Індійського океану (на відміну від інших еміратів, що омиваються водами Перської затоки) і може похвастатися відносно великою за місцевими мірками кількістю опадів та нетиповою для ОАЕ природою – зеленими долинами, величними горами та широкими пляжами з золотим піском. Найпопулярніші у туристів райони, що логічно, прибережні. Серед них – Ель-Фуджейра, Дібба, Аль-Бадія, Кальба та Хор-Факкан. Тут, на першій пляжній лінії, розташовані найкращі готелі. Саме у Фуджейрі стиль відпочинку нагадує Туреччину чи Єгипет. Адже у більшості готелів пляжі належать готелям і більшість готелів пропонують "все включено".
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="country-selection">
+            <div class="wrapper">
+                <div class="country-selection-container">
+                    <div class="country-selection-item">
+                        <h2 class="country-selection-title">
+                            Підібрати тур?
+                        </h2>
+                        <p class="country-selection-text">
+                            Немає часу на самостійний пошук туру, чи не знайшли те що потрібно? Напишіть нам і ми підберемо кращі пропозиції.
+                        </p>
+                    </div>
+                    <button type="button" class="main-button question">Залишити запит</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-block">
+                <address class="footer-block-address">
+                    <ul class="company-contacts">
+                        <li class="company-contacts-item">
+                            <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9A%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%96+%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8,+106,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.809364,23.998135,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae798040e4fb9:0xc8bd146d46c40c08!8m2!3d49.809364!4d23.998135" target="_blank" rel="noopener noreferrer nofollow" class="company-contacts-link">м. Львів, вул. Кн. Ольги, 106 (ТЦ "Львів", 13 зал)</a>
+                        </li>
+                        <li class="company-contacts-item company-address">
+                            <a href="mailto:koronatur@ukr.net" class="company-contacts-link">koronatur@ukr.net</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380977173388" class="company-contacts-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380635655886" class="company-contacts-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="logo logo-footer">
+                    <a href="../index.html"><img src="../img/logo.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright-item">
+                        Туристичне агентство "Корона-Тур" з 2012р.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="form-popup">
+        <div class="form-popup-body">
+            <form action="#" id="form" method="post" class="form">
+                <div class="form-head">
+                    <h2 class="form-title">Залишити запит</h2>
+                    <i class="fa-solid fa-xmark form-xmark"></i>
+                </div>
+                <p id="error-message" class="form-error-message"></p>
+                <div class="form-item">
+                    <label for="formName" class="form-label">Ім'я*:</label>
+                    <input id="formName" type="text" name="name" class="form-input _req" placeholder="Вкажіть ваше ім'я">
+                </div>
+                <div class="form-item">
+                    <label for="formPhone" class="form-label">Телефон*:</label>
+                    <input id="formPhone" type="tel" name="phone" class="form-input _req" placeholder="+380">
+                </div>
+                <div class="form-item">
+                    <label for="formMessage" class="form-label">Коментар*:</label>
+                    <textarea name="message" id="formMessage"class="form-input form-area _req" placeholder="Вкажіть побажання"></textarea>
+                </div>
+                <button type="submit" class="form-button">Відправити</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b478714518.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/form.js"></script>
+</body>
+</html>

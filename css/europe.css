@@ -1,0 +1,21 @@
+.europe-title {
+  padding: 50px 0;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.main-europe-search {
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 580px) {
+  .europe-title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+/*# sourceMappingURL=europe.css.map */

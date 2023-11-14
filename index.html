@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/korona.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Корона-Тур</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-block">
+                <div class="logo">
+                    <a href="index.html"><img src="img/Logo1.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="header-mobile">
+                    <i class="fa-solid fa-bars header-burger"></i>
+                </div>
+                <nav class="header-nav">
+                    <ul class="menu-item">
+                        <li class="menu-item-list">
+                            <a href="./pages/search.html" class="menu-item-link">Пошук тура</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <a href="./pages/europe.html" class="menu-item-link">Євро тури</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="#" class="menu-item-link">Країни</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/turkey.html" class="sub-menu-item-link">Туреччина</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/egypt.html" class="sub-menu-item-link">Єгипет</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/bulgaria.html" class="sub-menu-item-link">Болгарія</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/greece.html" class="sub-menu-item-link">Греція</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/oae.html" class="sub-menu-item-link">ОАЕ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="" class="menu-item-link">Більше</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/about.html" class="sub-menu-item-link">Про нас</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">Курси навчання</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="./pages/contacts.html" class="sub-menu-item-link">Контакти</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <ul class="phone-item">
+                        <li class="phone-item-list">
+                            <a href="tel:+380977173388" class="phone-item-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="phone-item-list">
+                            <a href="tel:+380635655886" class="phone-item-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-close">
+                <i class="fa-solid fa-xmark mobile-nav-xmark"></i>
+            </div>
+            <ul class="mobile-menu-item">
+                <li class="mobile-menu-item-list">
+                    <a href="#" class="mobile-menu-item-link">Пошук тура</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <a href="#" class="mobile-menu-item-link">Євро тури</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-countries" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Країни</a>
+                        <i  class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron first-chevron-down"></i>
+                    </div>
+                    <ul id="countries" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="./pages/turkey.html" class="mobile-sub-menu-item-link">Туреччина</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="./pages/egypt.html" class="mobile-sub-menu-item-link">Єгипет</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="./pages/bulgaria.html" class="mobile-sub-menu-item-link">Болгарія</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="./pages/greece.html" class="mobile-sub-menu-item-link">Греція</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="./pages/oae.html" class="mobile-sub-menu-item-link">ОАЕ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-more" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Більше</a>
+                        <i class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron second-chevron-down"></i>
+                    </div>
+                    <ul id="more" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Про нас</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Курси навчання</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="./pages/contacts.html" class="mobile-sub-menu-item-link">Контакти</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <section class="main-window">
+            <div class="main-window-background">
+                <div class="main-window-block">
+                    <h1 class="main-window-block-title">
+                        <span class="main-window-title">Подорожуй з комфортом,</span>
+                        <span class="main-window-title">відпочивай по-королівськи</span>
+                    </h1>
+                    <p class="main-window-text">Зробіть перший крок</p>
+                    <button type="button" class="main-button question">Залишити запит</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <section class="main-search">
+                <div class="main-search-left">
+                    <h2 class="main-search-title">
+                        Знайдіть тур своєї мрії
+                    </h2>
+                    <p class="main-search-text">
+                        Обрати кращий тур легко
+                    </p>
+                    <a href="./pages/search.html" class="main-button">Пошук турів</a>
+                </div>
+                <div class="main-search-right">
+                    <img src="img/globe-trotter-gdff1cff04_640.jpg" alt="Аеропорт" class="main-search-photo">
+                </div>
+            </section>
+        </div>
+
+        <section class="main-europe">
+            <div class="main-europe-background">
+                <div class="main-europe-block">
+                    <h2 class="main-europe-title">
+                        Екскурсійні тури
+                    </h2>
+                    <p class="main-europe-text">
+                        Любиш активний відпочинок та можливість за одну поїздку побачити декілька країн та багато цікавих міст. Тоді автобусні екскурсійні тури саме для дебе!
+                    </p>
+                    <a href="./pages/europe.html" class="main-button main-europe-button">Пошук турів</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="block-countries">
+            <div class="wrapper">
+                <div class="main-countries">
+                    <h2 class="main-countries-item">Популярні напрямки</h2>
+                    <div class="main-countries-block">
+                        <div class="main-countries-info">
+                            <div class="main-countries-img">
+                                <img src="img/country/egypt.jpg" alt="Єгипет" class="main-countries-photo">
+                            </div>
+                            <div class="main-countries-about">
+                                <ul class="main-countries-list">
+                                    <li>
+                                        <h3 class="main-countries-name">
+                                            Єгипет
+                                        </h3>
+                                    <li>
+                                        <p class="main-countries-text">
+                                            Країна пірамід і фараонів. Тут збереглося одне з семи чудес світу.
+                                        </p>
+                                    </li>
+                                    <li class="main-countries-details">
+                                        <a href="./pages/egypt.html" class="main-countries-link">Детальніше</a>
+                                        <i class="fa-sharp fa-solid fa-arrow-right-long main-countries-arrow"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-countries-info">
+                            <div class="main-countries-img">
+                                <img src="img/country/turkey.jpg" alt="Туреччина" class="main-countries-photo">
+                            </div>
+                            <div class="main-countries-about">
+                                <ul class="main-countries-list">
+                                    <li class="main-countries-list-link">
+                                        <h3 class="main-countries-name">
+                                            Туреччина
+                                        </h3>
+                                    <li>
+                                        <p class="main-countries-text">
+                                            Поєднання древньої історії і сучасного відпочинку по системі "все включено"
+                                        </p>
+                                    </li>
+                                    <li class="main-countries-details">
+                                        <a href="./pages/turkey.html" class="main-countries-link">Детальніше</a>
+                                        <i class="fa-sharp fa-solid fa-arrow-right-long main-countries-arrow"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-countries-info">
+                            <div class="main-countries-img">
+                                <img src="img/country/oae.jpg" alt="ОАЕ" class="main-countries-photo">
+                            </div>
+                            <div class="main-countries-about">
+                                <ul class="main-countries-list">
+                                    <li class="main-countries-list-link">
+                                        <h3 class="main-countries-name">
+                                            ОАЕ
+                                        </h3>
+                                    <li>
+                                        <p class="main-countries-text">
+                                            Сучасні готелі, найвищий хмарочос, штучні острова все це про ОАЕ
+                                        </p>
+                                    </li>
+                                    <li class="main-countries-details">
+                                        <a href="./pages/oae.html" class="main-countries-link">Детальніше</a>
+                                        <i class="fa-sharp fa-solid fa-arrow-right-long main-countries-arrow"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="main-countries-info">
+                            <div class="main-countries-img">
+                                <img src="img/country/greece.jpg" alt="Греція" class="main-countries-photo">
+                            </div>
+                            <div class="main-countries-about">
+                                <ul class="main-countries-list">
+                                    <li class="main-countries-list-link">
+                                        <h3 class="main-countries-name">
+                                            Греція
+                                        </h3>
+                                    <li>
+                                        <p class="main-countries-text">
+                                            Країна тисячі островів та древніх пам'яток. Країна яку треба бачити.
+                                        </p>
+                                    </li>
+                                    <li class="main-countries-details">
+                                        <a href="./pages/greece.html" class="main-countries-link">Детальніше</a>
+                                        <i class="fa-sharp fa-solid fa-arrow-right-long main-countries-arrow"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper">
+            <section class="main-selection">
+                <div class="main-selection-left">
+                    <img src="img/airport-g1d3ce6100_640.jpg" alt="Аеропорт" class="main-selection-photo">
+                </div>
+                <div class="main-selection-right">
+                    <h2 class="main-selection-title">
+                        Підібрати тур?
+                    </h2>
+                    <p class="main-selection-text">
+                        Немає часу на самостійний пошук туру, чи не знайшли те що потрібно? Напишіть нам і ми підберемо кращі пропозиції.
+                    </p>
+                    <button type="button" class="main-button main-selection-button question">Залишити запит</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-block">
+                <address class="footer-block-address">
+                    <ul class="company-contacts">
+                        <li class="company-contacts-item">
+                            <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9A%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%96+%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8,+106,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.809364,23.998135,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae798040e4fb9:0xc8bd146d46c40c08!8m2!3d49.809364!4d23.998135" target="_blank" rel="noopener noreferrer nofollow" class="company-contacts-link">м. Львів, вул. Кн. Ольги, 106 (ТЦ "Львів", 13 зал)</a>
+                        </li>
+                        <li class="company-contacts-item company-address">
+                            <a href="mailto:koronatur@ukr.net" class="company-contacts-link">koronatur@ukr.net</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380977173388" class="company-contacts-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380635655886" class="company-contacts-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="logo logo-footer">
+                    <a href="./index.html"><img src="img/logo1.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright-item">
+                        Туристичне агентство "Корона-Тур" з 2012р.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="form-popup">
+        <div class="form-popup-body">
+            <form action="#" id="form" method="post" class="form">
+                <div class="form-head">
+                    <h2 class="form-title">Залишити запит</h2>
+                    <i class="fa-solid fa-xmark form-xmark"></i>
+                </div>
+                <p id="error-message" class="form-error-message"></p>
+                <div class="form-item">
+                    <label for="formName" class="form-label">Ім'я*:</label>
+                    <input id="formName" type="text" name="name" class="form-input _req" placeholder="Вкажіть ваше ім'я">
+                </div>
+                <div class="form-item">
+                    <label for="formPhone" class="form-label">Телефон*:</label>
+                    <input id="formPhone" type="tel" name="phone" class="form-input _req" placeholder="+380">
+                </div>
+                <div class="form-item">
+                    <label for="formMessage" class="form-label">Коментар*:</label>
+                    <textarea name="message" id="formMessage"class="form-input form-area _req" placeholder="Вкажіть побажання"></textarea>
+                </div>
+                <button type="submit" class="form-button">Відправити</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/b478714518.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+</html>

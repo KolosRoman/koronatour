@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/korona.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <title>Про нас</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-block">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logo.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="header-mobile">
+                    <i class="fa-solid fa-bars header-burger"></i>
+                </div>
+                <nav class="header-nav">
+                    <ul class="menu-item">
+                        <li class="menu-item-list">
+                            <a href="../pages/search.html" class="menu-item-link">Пошук тура</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <a href="../pages/europe.html" class="menu-item-link">Євро тури</a>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="#" class="menu-item-link">Країни</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/turkey.html" class="sub-menu-item-link">Туреччина</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/egypt.html" class="sub-menu-item-link">Єгипет</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/bulgaria.html" class="sub-menu-item-link">Болгарія</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/greece.html" class="sub-menu-item-link">Греція</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/oae.html" class="sub-menu-item-link">ОАЕ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-list">
+                            <div class="menu-item-block">
+                                <a href="#" class="menu-item-link">Більше</a>
+                                <i class="fa-sharp fa-solid fa-chevron-down menu-item-chevron"></i>
+                            </div>
+                            <ul class="sub-menu-item">
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">Про нас</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="#" class="sub-menu-item-link">Курси навчання</a>
+                                </li>
+                                <li class="sub-menu-item-list">
+                                    <a href="../pages/contacts.html" class="sub-menu-item-link">Контакти</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <ul class="phone-item">
+                        <li class="phone-item-list">
+                            <a href="tel:+380977173388" class="phone-item-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="phone-item-list">
+                            <a href="tel:+380635655886" class="phone-item-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <nav class="mobile-nav">
+            <div class="mobile-nav-close">
+                <i class="fa-solid fa-xmark mobile-nav-xmark"></i>
+            </div>
+            <ul class="mobile-menu-item">
+                <li class="mobile-menu-item-list">
+                    <a href="../pages/search.html" class="mobile-menu-item-link">Пошук тура</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <a href="../pages/europe.html" class="mobile-menu-item-link">Євро тури</a>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-countries" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Країни</a>
+                        <i  class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron first-chevron-down"></i>
+                    </div>
+                    <ul id="countries" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/turkey.html" class="mobile-sub-menu-item-link">Туреччина</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/egypt.html" class="mobile-sub-menu-item-link">Єгипет</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/bulgaria.html" class="mobile-sub-menu-item-link">Болгарія</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/greece.html" class="mobile-sub-menu-item-link">Греція</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/oae.html" class="mobile-sub-menu-item-link">ОАЕ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-menu-item-list">
+                    <div id="open-more" class="mobile-menu-item-block">
+                        <a href="#" class="mobile-menu-item-link">Більше</a>
+                        <i class="fa-sharp fa-solid fa-chevron-down mobile-menu-item-chevron second-chevron-down"></i>
+                    </div>
+                    <ul id="more" class="mobile-sub-menu-item">
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Про нас</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="#" class="mobile-sub-menu-item-link">Курси навчання</a>
+                        </li>
+                        <li class="mobile-sub-menu-item-list">
+                            <a href="../pages/contacts.html" class="mobile-sub-menu-item-link">Контакти</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+        <div class="wrapper">
+            <h1 class="about-title">
+                Про нас
+            </h1>
+            <div class="asout-container">
+                <div class="about-head">
+                    <div class="about-head-item">
+                        <h2>Мене звати Роман Колос. Я засновник ТА "Корона-Тур".</h2>
+                        <p>На ринку туристичних подорожей ми працюємо з 2012р. За цей час наші туристи побували на всіх континентах нашої планети (крім Антарктиди, але це у наших планах!)</p>
+                        <p>З 2015р. ми входимо у найкращу мережу туристичних агентств України "Мережа агенцій гарячих путівок"</p>
+                        <p>За всі ці роки ми організували подорожі для понад 10000 людей. Нам довіряють школи та фірми. Окрема подяка Львівському Ліцею №5 ім. Кокорудзів. Впродовж багатьох років учні цього ліцею подорожують з нами Європою</p>
+                    </div>
+                    <div class="about-head-photo">
+                        <img src="../img/Photo1.jpg" alt="Людина" class="about-head-photo-item">
+                    </div>
+                </div>
+                <div class="about-bottom">
+                    <p>Якщо Ви бажаєте гарно та якісно відпочити і цей відпочинок щоб запам’ятався назавжди то Вам саме до нас.</p>
+                    <p>У нас є все і навіть більше!</p>
+                    <p>Бажаєте гарячі путівки у Туреччину, Єгипет, Чорногорію та інші країни – Вам до нас! Адже ми, входимо у мережу агенцій горящих путівок, і у кого, як не у нас вони є!</p>
+                    <p>Бажаєте екскурсійні тури по Європі – з нами вся Європа, як на долоні. Від Польщі до Португалії, від Греції до Норвегії!</p>
+                    <p>Бажаєте подорожувати нашою Україною - у нас є великиї вибір турів Ураїною. Замки, гори, море і звісно Дніпро чекають на Вас!</p>
+                    <p>Бажаєте відпочити у сонячній Болгарії – будь-ласка, у нас є можливість забронювати як проїзд лише автобусом чи проживання лише у готелі так і пакетні тури автобусом чи літаком</p>
+                    <p>Бажаєте відвідати Ізраїль – ми пропонуємо як екскурсійні тури так і паломницькі тури зі священиками</p>
+                    <p>Бажаєте побувати на найкращих пляжах Європи (Греція, Іспанія, Італія, Хорватія, Франція, Португалія) – у нас Ви завжди знайдете пропозиції з вильотами як з України так і з Польщі!</p>
+                    <p>А, можливо, Вам до вподоби екзотика – тоді ми Вам запропонуємо відпочинок на найкращих пляжах ГОА, Шрі-Ланки, Мальдів, Маврикію, Занзібару, Домінікани, Балі, Мексики, Куби і не тільки!</p>
+                    <p>Хочете морські круїзи – ми Вам запропонуємо круїзи на найкращих лайнерах по Середземномор’ю, Карибам, Тихому океану…</p>
+                    <ul>
+                        <li>І, навіть, якщо Ви бажаєте щось не стандартне:</li>
+                        <li>Побувати у США та побачити Ніагарський водоспад чи Великий Каньйон</li>
+                        <li>Піднятися до вершин Гімалаїв</li>
+                        <li>Побачити красу Нової Зеландії</li>
+                        <li>Побувати на африканському сафарі</li>
+                        <li>Порибалити у Норвегії, Аргентині, Еквадорі</li>
+                        <li>Побачити джунглі Амазонки</li>
+                        <li>Доторкнутися до світу новітніх технологій у Японії</li>
+                        <li>То вам теж до нас!</li>
+                    </ul>
+                    <p>Будьте впевнені, ми ставимо якість відпочинку на перше місце і сподіваємося, що прийшовши до нас, Ви оціните індивідуальний підхід, високий рівень сервісу і довірите нам свій відпочинок і відпочинок своїх близьких.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-block">
+                <address class="footer-block-address">
+                    <ul class="company-contacts">
+                        <li class="company-contacts-item">
+                            <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%9A%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%96+%D0%9E%D0%BB%D1%8C%D0%B3%D0%B8,+106,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.809364,23.998135,17z/data=!3m1!4b1!4m5!3m4!1s0x473ae798040e4fb9:0xc8bd146d46c40c08!8m2!3d49.809364!4d23.998135" target="_blank" rel="noopener noreferrer nofollow" class="company-contacts-link">м. Львів, вул. Кн. Ольги, 106 (ТЦ "Львів", 13 зал)</a>
+                        </li>
+                        <li class="company-contacts-item company-address">
+                            <a href="mailto:koronatur@ukr.net" class="company-contacts-link">koronatur@ukr.net</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380977173388" class="company-contacts-link">+38 097 717 33 88</a>
+                        </li>
+                        <li class="company-contacts-item company-phone">
+                            <a href="tel:+380635655886" class="company-contacts-link">+38 063 565 58 86</a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="logo logo-footer">
+                    <a href="../index.html"><img src="../img/logo.jpg" alt="Логотип" class="logo-item"></a>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright-item">
+                        Туристичне агентство "Корона-Тур" з 2012р.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b478714518.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

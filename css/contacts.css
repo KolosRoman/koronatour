@@ -1,0 +1,114 @@
+.coutacts-title {
+  padding: 50px 0;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+.coutacts-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.coutacts-items {
+  display: grid;
+  grid-row-gap: 20px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000000;
+}
+.coutacts-items .coutacts-items-text {
+  text-decoration: none;
+  color: #000000;
+}
+
+.viber {
+  margin-top: 50px;
+}
+.viber .viber-link {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  transition: all 0.5s;
+}
+.viber .viber-link .viber-icon {
+  font-size: 36px;
+  padding-left: 15px;
+}
+.viber .viber-link:hover {
+  color: rgb(203, 17, 26);
+}
+
+.map-container {
+  margin-left: 30px;
+}
+.map-container .map-medium,
+.map-container .map-small,
+.map-container .map-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1460px) {
+  .map-container .map-big,
+  .map-container .map-small {
+    display: none;
+  }
+  .map-container .map-medium {
+    display: block;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .coutacts-items {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .viber .viber-link {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .map-container .map-big,
+  .map-container .map-medium {
+    display: none;
+  }
+  .map-container .map-small {
+    display: block;
+  }
+}
+@media screen and (max-width: 680px) {
+  .coutacts-title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .coutacts-block {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .coutacts-main {
+    margin-bottom: 30px;
+  }
+  .viber .viber-link {
+    justify-content: center;
+  }
+  .map-container {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .map-container .map-small {
+    display: none;
+  }
+  .map-container .map-mobile {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=contacts.css.map */

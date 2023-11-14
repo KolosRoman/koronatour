@@ -1,0 +1,360 @@
+@import 'variables';
+
+.country-main {
+    width: 100%;
+    height: 25vw;
+    background-image: url(../img/country/bulgaria/bulgaria_page1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 60px;
+
+    .country-main-background {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.country-main-block {
+    text-align: center;
+
+    .country-main-title {
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 700;
+        color: $main-white;
+        margin-bottom: 30px;
+    }
+}
+
+.country-about {
+
+    .country-about-title {
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+    }
+
+    .country-about-block {
+        display: grid;
+        align-items: center;
+        margin-bottom: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+
+        .country-about-top {
+            grid-column: 1/3;
+        }
+
+        .country-about-bottom {
+            grid-column: 2/4;
+        }
+    }
+}
+
+.country-about-content {
+    display: grid;
+    grid-row-gap: 15px;
+    padding: 0 20px;
+
+    .country-about-text {
+        font-size: 20px;
+        line-height: 22px;
+        text-align: justify;
+    }
+}
+
+.country-about-img {
+    max-width: 640px;
+
+    .country-about-photo {
+        width: 100%;
+    }
+}
+
+.country-resorts-title {
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.country-resorts-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.resorts-first-img,
+.resorts-second-img,
+.resorts-third-img,
+.resorts-fourth-img,
+.resorts-fifth-img,
+.resorts-sixth-img {
+    max-width: 640px;
+
+    .resorts-photo {
+        width: 100%;
+    }
+}
+
+
+.resorts-first-block,
+.resorts-second-block,
+.resorts-third-block,
+.resorts-fourth-block,
+.resorts-fifth-block,
+.resorts-sixth-block {
+    display: grid;
+    grid-row-gap: 20px;
+    text-align: center;
+
+    .resorts-container-title {
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+
+    .resorts-container-text {
+        font-size: 20px;
+        line-height: 22px;
+        text-align: justify;
+    }
+}
+
+.country-selection {
+    background-color: rgb(243, 228, 209);
+    margin: 50px 0;
+}
+
+.country-selection-container {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+
+    .country-selection-item {
+        flex: 0.7;
+        text-align: center;
+
+        .country-selection-title {
+            font-size: 36px;
+            line-height: 38px;
+            font-weight: 700;
+        }
+
+        .country-selection-text {
+            font-size: 20px;
+            line-height: 22px;
+            padding-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .country-about-content {
+    
+        .country-about-text {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    .resorts-first-block,
+    .resorts-second-block,
+    .resorts-third-block,
+    .resorts-fourth-block,
+    .resorts-fifth-block,
+    .resorts-sixth-block {
+
+        .resorts-container-title {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        .resorts-container-text {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+
+
+    .country-about {
+
+        .country-about-block {
+            grid-template-columns: 1fr 1fr;
+    
+            .country-about-top {
+                grid-column: 1/3;
+            }
+    
+            .country-about-bottom {
+                grid-column: 1/3;
+            }
+    
+            .country-about-img {
+                grid-column: 1/2;
+    
+                &.country-about-img-two {
+                    grid-column: 2/3;
+                }
+            }
+        }
+    }
+
+    .country-resorts-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .country-about-content {
+        padding: 0;
+    }
+
+    .country-selection-container {
+
+
+        .country-selection-item {
+
+            .country-selection-title {
+                font-size: 20px;
+                line-height: 22px;
+            }
+    
+            .country-selection-text {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .country-main {
+        height: 35vw;
+    }
+
+    .country-main-block {
+    
+        .country-main-title {
+            font-size: 24px;
+            line-height: 26px;
+            margin-bottom: 15px;
+        }
+    }
+
+
+    .country-about {
+
+        .country-about-title {
+            font-size: 24px;
+            line-height: 26px;
+        }
+
+        .country-about-block {
+            grid-template-columns: 1fr;
+            grid-gap: 15px;
+    
+            .country-about-top {
+                grid-column: 1/2;
+            }
+    
+            .country-about-bottom {
+                grid-column: 1/2;
+            }
+    
+            .country-about-img {
+                grid-column: 1/2;
+    
+                &.country-about-img-two {
+                    grid-column: 1/2;
+                }
+            }
+        }
+    }
+
+    .country-resorts-title {
+        padding-bottom: 20px;
+    }
+
+    .country-resorts-container {
+        grid-template-columns: 1fr;
+
+        .resorts-first-block {
+            order: 1;
+        }
+    
+        .resorts-first-img {
+            order: 2;
+            max-width: 450px;
+        }
+    
+        .resorts-second-img {
+            order: 4;
+            max-width: 450px;
+        }
+    
+        .resorts-second-block {
+            order: 3;
+        }
+    
+        .resorts-third-block {
+            order: 5;
+        }
+    
+        .resorts-third-img {
+            order: 6;
+            max-width: 450px;
+        }
+
+        .resorts-fourth-block {
+            order: 7;
+        }
+    
+        .resorts-fourth-img {
+            order: 8;
+            max-width: 450px;
+        }
+
+        .resorts-fifth-block {
+            order: 9;
+        }
+    
+        .resorts-fifth-img {
+            order: 10;
+            max-width: 450px;
+        }
+    
+        .resorts-sixth-img {
+            order: 12;
+            max-width: 450px;
+        }
+    
+        .resorts-sixth-block {
+            order: 11;
+        }
+    
+    }
+
+    .country-selection-container {
+        display: grid;
+        grid-row-gap: 15px;
+    }
+}
